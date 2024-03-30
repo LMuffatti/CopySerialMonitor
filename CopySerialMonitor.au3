@@ -38,7 +38,7 @@ FileDelete($sfileName)
 ; A few seconds of waiting for the user to select the first character of the Serial Monitor 
 Sleep(10000)
 Send("+{DOWN}")
-Send("+{LEFT}")¨
+Send("+{LEFT}")
 
 ; 1000 times give you 33*1000+31 = 33031 lines of capture
 For $j = 1 To 1000
